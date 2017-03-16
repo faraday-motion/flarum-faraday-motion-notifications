@@ -1,5 +1,5 @@
 {
-    "name": "faraday-motion/flarum-ext-notifications",
+    "name": "faraday-motion/flarum-faraday-motion-notifications",
     "description": "This will allow admins to setup global noticifaction preferences",
     "type": "flarum-extension",
     "version": "master",
