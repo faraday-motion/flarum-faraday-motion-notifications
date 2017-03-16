@@ -1,0 +1,24 @@
+{
+    "name": "faraday-motion/flarum-ext-notifications",
+    "description": "This will allow admins to setup global noticifaction preferences",
+    "type": "flarum-extension",
+    "version": "master",
+    "require": {
+        "flarum/core": "^0.1.0-beta.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flarum\\FaradayMotion\\Notification\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Faraday Motion Notifications",
+            "icon" : {
+                "name" : "Faraday Motion Notifications",
+                "backgroundColor" : "#74e409",
+                "color" : "#eee"
+            }
+        }
+    }
+}
